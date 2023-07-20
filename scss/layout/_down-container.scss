@@ -1,0 +1,74 @@
+@import '../base/colors';
+
+section {
+  .my-experience {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .text-myexperience {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .header {
+      color: $colorWhite;
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 35px;
+    }
+    .info-text {
+      color: $colorWhite;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .info-center {
+      width: 75%;
+    }
+    .items-box {
+      .item-container {
+        h2 {
+          margin-top: 15px;
+          font-size: 20px;
+          color: $colorWhite;
+          text-align: center;
+        }
+        p {
+          font-size: 14px;
+          color: $colorTextTwo;
+          text-align: center;
+        }
+
+        .item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 125px;
+          height: 125px;
+          margin: 25px;
+          border-radius: 3.2rem;
+          box-shadow: 5px 10px 15px $bg-color;
+          transition: 0.3s ease-in-out;
+          &:hover {
+            box-shadow: 5px 10px 25px $mouseover-bg;
+          }
+          .bx {
+            font-size: 78px;
+            color: $colorWhite;
+          }
+        }
+      }
+      .first-block,
+      .second-block {
+        display: flex;
+        margin-top: 2rem;
+      }
+    }
+  }
+}
+
+@import '../layout/responsive/responsive-downContainer';

@@ -1,0 +1,235 @@
+@media (min-width: 723px) {
+  .section-navigate.show {
+    animation: none;
+  }
+  .section-navigate.hide {
+    animation: none;
+  }
+
+  .text-navigate,
+  .image-navigate,
+  .box-image {
+    display: none;
+  }
+  .main-section {
+    margin-bottom: 5px;
+    .section-navigate {
+      width: 100%;
+      height: 7vh;
+      flex-direction: row;
+      background: $bg-color;
+      box-shadow: none;
+      top: 0;
+      left: 0;
+      .text-box {
+        width: 25%;
+        position: relative;
+        // border: 1px solid green;
+      }
+      h1 {
+        font-size: 21px;
+      }
+
+      .navigate-box {
+        width: 75%;
+        height: 7vh;
+
+        ul {
+          flex-direction: row;
+          justify-content: end;
+          margin: 0;
+          // border: 1px solid red;
+        }
+
+        li {
+          width: 18%;
+          height: 7vh;
+          margin: 0;
+          text-align: center;
+          // border: 1px solid green;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          a {
+            font-size: 13px;
+            width: 100%;
+            height: 7vh;
+            // border: 1px solid blue;
+            position: relative;
+          }
+          .active-li {
+            color: $mainColorText;
+          }
+        }
+        .mouseover-animate,
+        .mouseover-animate-two {
+          color: $mainColorText;
+        }
+      }
+    }
+  }
+  .top-container {
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+  }
+  .responsive-correct {
+    height: 100vh;
+    // border: 1px solid blue;
+  }
+}
+@media (min-width: 928px) {
+  .section-navigate.show {
+    animation: none;
+  }
+  .section-navigate.hide {
+    animation: none;
+  }
+
+  .text-navigate,
+  .image-navigate,
+  .box-image {
+    display: none;
+  }
+  .main-section {
+    margin-bottom: 5px;
+    .section-navigate {
+      width: 100%;
+      height: 7vh;
+      flex-direction: row;
+      background: $bg-color;
+      box-shadow: none;
+      top: 0;
+      left: 0;
+      .text-box {
+        width: 25%;
+        position: relative;
+        // border: 1px solid green;
+      }
+      h1 {
+        font-size: 23px;
+      }
+
+      .navigate-box {
+        width: 75%;
+        height: 7vh;
+
+        ul {
+          flex-direction: row;
+          justify-content: end;
+          margin: 0;
+          // border: 1px solid red;
+        }
+
+        li {
+          width: 16%;
+          height: 7vh;
+          margin: 0;
+          text-align: center;
+          // border: 1px solid green;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          a {
+            font-size: 14px;
+            width: 100%;
+            height: 7vh;
+            // border: 1px solid blue;
+            position: relative;
+          }
+          .active-li {
+            color: $mainColorText;
+          }
+        }
+        .mouseover-animate,
+        .mouseover-animate-two {
+          color: $mainColorText;
+        }
+      }
+    }
+  }
+  .responsive-correct {
+    height: 100vh;
+    // border: 1px solid blue;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-navigate.show {
+    animation: none;
+  }
+  .section-navigate.hide {
+    animation: none;
+  }
+
+  .text-navigate,
+  .image-navigate,
+  .box-image {
+    display: none;
+  }
+  .main-section {
+    margin-bottom: 5px;
+    .section-navigate {
+      width: 100%;
+      height: 7vh;
+      flex-direction: row;
+      background: $bg-color;
+      box-shadow: none;
+      top: 0;
+      left: 0;
+      .text-box {
+        width: 25%;
+        position: relative;
+        // border: 1px solid green;
+      }
+      h1 {
+        font-size: 25px;
+      }
+
+      .navigate-box {
+        width: 75%;
+        height: 7vh;
+        // border: 1px solid green;
+
+        ul {
+          flex-direction: row;
+          justify-content: end;
+          margin: 0;
+          // border: 1px solid red;
+        }
+
+        li {
+          width: 16%;
+          height: 7vh;
+          margin: 0;
+          text-align: center;
+          // border: 1px solid green;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          a {
+            font-size: 16px;
+            width: 100%;
+            height: 7vh;
+            // border: 1px solid blue;
+            position: relative;
+          }
+          .active-li {
+            color: $mainColorText;
+          }
+        }
+        .mouseover-animate,
+        .mouseover-animate-two {
+          color: $mainColorText;
+        }
+      }
+    }
+  }
+  .responsive-correct {
+    height: 100vh;
+    // border: 1px solid blue;
+  }
+}

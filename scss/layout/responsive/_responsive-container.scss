@@ -1,0 +1,349 @@
+@media (min-width: 723px) {
+  .top-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 95%;
+    margin-top: 7rem;
+    margin-left: 1rem;
+    border: none;
+    text-align: start;
+  }
+
+  .top-container .info-box {
+    width: 55%;
+    align-self: flex-start;
+  }
+
+  .top-container .header {
+    margin: 0;
+    color: $colorWhite;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 2rem;
+  }
+
+  .top-container .info-text {
+    margin: 20px 0 32px;
+    color: $colorWhite;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .top-container .info-buttons {
+    display: flex;
+    justify-content: start;
+  }
+
+  .top-container .info-btn {
+    cursor: pointer;
+    padding: 8px 38px;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: -1px;
+    color: $colorWhite;
+  }
+
+  .top-container .info-btn.nav-btn {
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid $colorWhite;
+  }
+
+  .ig-box {
+    padding: 10px;
+    margin: 0;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 15px $bg-color;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    &:hover {
+      box-shadow: 5px 10px 25px $mouseover-bg;
+    }
+    .ig-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+    .info {
+      display: flex;
+      align-items: center;
+      color: $colorWhite;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .likes {
+      display: flex;
+      align-items: center;
+      color: $colorWhite;
+      font-weight: 600;
+      font-size: 12px;
+      .icon-box {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        .bx {
+          font-size: 30px;
+          margin-right: 8px;
+        }
+      }
+    }
+    .info-img {
+      object-fit: cover;
+      flex-shrink: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+  .ig-pic {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 1.6rem;
+  }
+  .info-buttons-two {
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 873px) {
+  .top-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 85%;
+    margin-top: 7rem;
+    margin-left: 5rem;
+    border: none;
+    text-align: start;
+  }
+
+  .top-container .info-box {
+    width: 55%;
+    align-self: flex-start;
+  }
+
+  .top-container .header {
+    margin: 0;
+    color: $colorWhite;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 2rem;
+  }
+
+  .top-container .info-text {
+    margin: 20px 0 32px;
+    color: $colorWhite;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .top-container .info-buttons {
+    display: flex;
+    justify-content: start;
+  }
+
+  .top-container .info-btn {
+    cursor: pointer;
+    padding: 10px 38px;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: -1px;
+    color: $colorWhite;
+  }
+
+  .top-container .info-btn.nav-btn {
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid $colorWhite;
+  }
+
+  .ig-box {
+    padding: 10px;
+    margin: 0;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 15px $bg-color;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0;
+    &:hover {
+      box-shadow: 5px 10px 25px $mouseover-bg;
+    }
+    .ig-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+    .info {
+      display: flex;
+      align-items: center;
+      color: $colorWhite;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .likes {
+      display: flex;
+      align-items: center;
+      color: $colorWhite;
+      font-weight: 600;
+      font-size: 12px;
+      .icon-box {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        .bx {
+          font-size: 30px;
+          margin-right: 8px;
+        }
+      }
+    }
+    .info-img {
+      object-fit: cover;
+      flex-shrink: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+  .ig-pic {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 1.6rem;
+  }
+  .info-buttons-two {
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 75%;
+    margin-top: 7rem;
+    margin-left: 7rem;
+    border: none;
+    text-align: start;
+  }
+
+  .top-container .info-box {
+    width: 55%;
+    align-self: flex-start;
+  }
+
+  .top-container .header {
+    margin: 0;
+    color: $colorWhite;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 2rem;
+  }
+
+  .top-container .info-text {
+    margin: 20px 0 32px;
+    color: $colorWhite;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .top-container .info-buttons {
+    display: flex;
+    justify-content: start;
+  }
+
+  .top-container .info-btn {
+    cursor: pointer;
+    padding: 12px 45px;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: -1px;
+    color: $colorWhite;
+  }
+
+  .top-container .info-btn.nav-btn {
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid $colorWhite;
+  }
+
+  .ig-box {
+    padding: 10px;
+    margin: 0;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 15px $bg-color;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0;
+    &:hover {
+      box-shadow: 5px 10px 25px $mouseover-bg;
+    }
+    .ig-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+    .info {
+      display: flex;
+      align-items: center;
+      color: $colorWhite;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .likes {
+      display: flex;
+      align-items: center;
+      color: $colorWhite;
+      font-weight: 600;
+      font-size: 12px;
+      .icon-box {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        .bx {
+          font-size: 30px;
+          margin-right: 8px;
+        }
+      }
+    }
+    .info-img {
+      object-fit: cover;
+      flex-shrink: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+  .ig-pic {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 1.6rem;
+  }
+  .info-buttons-two {
+    margin-top: 15px;
+    text-align: center;
+  }
+}

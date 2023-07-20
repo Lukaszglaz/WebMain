@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Blog - Głaz Łukasz</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <!-- Navbar -->
+        <div class="main-section">
+          <div class="section-navigate hide">
+            <div class="text-box">
+              <h1>GLAZLUKASZ.pl</h1>
+            </div>
+            <div class="navigate-box">
+              <nav>
+                <ul>
+                  <li><a class="active-li" href="#">Strona Główna</a></li>
+                  <li><a href="#">O Projekcie</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Kontakt</a></li>
+                  <li><a href="#">CV</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="image-navigate">
+            <div class="text-navigate hideText">
+              <h1>GLAZLUKASZ<span>.pl</span></h1>
+            </div>
+            <div class="box-hamburger">
+              <div class="hamburger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Navbar -->
+      </header>
+
+      <section class="responsive-correct">
+        <!-- Top Container -->
+        <div class="top-container">
+          <div class="info-box">
+            <p class="header box">
+              Doskonalę swoje umiejętności w tworzeniu zawaansowanych stron
+              internetowych oraz dążę do pracy jako:
+              <br />
+              <span class="animated-text">Front-End Developer</span>.
+            </p>
+            <p class="info-text box">
+              Jestem zafascynowany światem programowania i mimo młodego wieku,
+              posiadam już znaczną wiedzę w obszarze HTML, CSS, oraz Podstawy
+              SCSS & JavaScript.
+            </p>
+            <div class="info-buttons box">
+              <button class="info-btn selected">Zobacz więcej</button>
+            </div>
+          </div>
+
+          <div class="ig-box box">
+            <img src="img/logo-stairs-man.jpg" class="ig-pic" />
+            <div class="ig-content">
+              <div class="info">
+                <img src="img/man-dark.jpg" class="info-img" />
+                <div>
+                  <p>Instagram:</p>
+                  <p>lukasz.321</p>
+                </div>
+              </div>
+              <div class="likes">
+                <div class="icon-box">
+                  <i class="bx bx-heart"></i>
+                  Follow: 334
+                </div>
+              </div>
+            </div>
+            <div class="info-buttons-two">
+              <button id="przejdzBtn" class="info-btn selected">
+                Przejdź tam
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- End of Top Container -->
+      </section>
+
+      <section class="second-window">
+        <!-- Skills Container -->
+        <div class="my-experience">
+          <div class="text-myexperience box">
+            <p class="header">Moje doświadczenie</p>
+            <p class="info-text info-center">
+              Oto kilka umiejętności, w których jestem dość dobry i które stale
+              rozwijam.
+            </p>
+          </div>
+          <div class="items-box box">
+            <div class="first-block">
+              <div class="item-container">
+                <div class="item">
+                  <i class="bx bxl-html5"></i>
+                </div>
+                <h2 class="info-text">HTML</h2>
+                <p>
+                  HyperText Markup <br />
+                  Language
+                </p>
+              </div>
+              <div class="item-container">
+                <div class="item">
+                  <i class="bx bxl-javascript"></i>
+                </div>
+                <h2 class="info-text">JS</h2>
+                <p>JavaScript</p>
+              </div>
+            </div>
+            <div class="second-block">
+              <div class="item-container">
+                <div class="item">
+                  <i class="bx bxl-css3"></i>
+                </div>
+                <h2 class="info-text">CSS</h2>
+                <p>Cascading Style Sheets</p>
+              </div>
+              <div class="item-container">
+                <div class="item">
+                  <i class="bx bxl-sass"></i>
+                </div>
+                <h2 class="info-text">SASS</h2>
+                <p>SCSS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Skills Container -->
+      </section>
+    </div>
+    <!-- Navbar animated -->
+    <script src="js/animate_header.js"></script>
+    <!-- End Navbar animated -->
+
+    <!-- Tap-container animated -->
+    <script src="https://cdn.jsdelvr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/top-container.js"></script>
+    <!-- End Tap-container animated -->
+    <!-- Scroll Animated show -->
+    <script src="js/animate-scroll.js"></script>
+    <!-- End Scroll Animated -->
+  </body>
+</html>

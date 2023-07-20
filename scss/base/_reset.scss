@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background-color: $second-bg-color;
+  overflow-x: hidden;
+}
+
+#wrapper {
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.image-navigate {
+  display: none;
+}
