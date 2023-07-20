@@ -34,37 +34,3 @@
     opacity: 1;
   }
 }
-
-@media (max-width: 723px) {
-  .box {
-    transform: translateX(-400%);
-    transition: transform 0.5s ease;
-  }
-
-  .box:nth-of-type(even) {
-    transform: translate(400%);
-  }
-
-  .box.show {
-    transform: translateX(0);
-  }
-}
-
-@media (min-width: 723px) {
-  .box {
-    transform: none;
-  }
-
-  .boxes {
-    transform: translateX(-400%);
-    transition: transform 0.5s ease;
-  }
-
-  .boxes:nth-of-type(even) {
-    transform: translate(400%);
-  }
-
-  .boxes.show {
-    transform: translateX(0);
-  }
-}
