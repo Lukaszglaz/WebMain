@@ -56,6 +56,9 @@ section {
           &:hover {
             box-shadow: 5px 10px 25px $mouseover-bg;
           }
+          i {
+            animation: moveUpDown 2s infinite alternate ease-in-out;
+          }
           .bx {
             font-size: 78px;
             color: $colorWhite;
@@ -68,7 +71,30 @@ section {
         margin-top: 2rem;
       }
     }
+    .info-btn {
+      cursor: pointer;
+      padding: 10px 42px;
+      border-radius: 16px;
+      font-weight: 600;
+      font-size: 15px;
+      color: $colorWhite;
+      transition: 0.3s ease-in-out;
+      box-shadow: 1px 3px 7px $mouseover-bg;
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+    .info-btn.selected {
+      border: none;
+      background-color: $bg-color;
+    }
   }
 }
-
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
 @import '../layout/responsive/responsive-downContainer';

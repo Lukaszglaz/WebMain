@@ -1,0 +1,81 @@
+@media (min-width: 723px) {
+  .port-container {
+    flex-direction: column;
+    height: 85vh;
+    width: 95%;
+
+    .my-project,
+    .my-passion,
+    .what-next {
+      width: 27vw;
+      height: 70vh;
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      position: static;
+      top: 3.5em;
+      transform: translate(0, 0);
+      animation: none;
+      justify-content: space-evenly;
+      .header {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 35px;
+      }
+      .image-port {
+        height: 180px;
+      }
+    }
+
+    .info-btn {
+      padding: 10px 35px;
+      font-size: 15px;
+    }
+
+    .correct-div {
+      display: flex;
+    }
+  }
+}
+@media (min-width: 873px) {
+  .port-container {
+    .my-project,
+    .my-passion,
+    .what-next {
+      margin-left: 20px;
+      margin-right: 20px;
+      .info-text {
+        font-size: 15px;
+      }
+      .header {
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 35px;
+      }
+    }
+
+    .info-btn {
+      padding: 10px 40px;
+      font-size: 15px;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .port-container {
+    .my-project,
+    .my-passion,
+    .what-next {
+      width: 25vw;
+      .info-text {
+        font-size: 16px;
+      }
+      .header {
+        font-size: 1.6rem;
+      }
+    }
+
+    .info-btn {
+      font-size: 15px;
+    }
+  }
+}

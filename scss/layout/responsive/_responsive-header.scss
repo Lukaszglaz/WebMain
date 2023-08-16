@@ -74,10 +74,6 @@
     justify-content: space-between;
     border: 1px solid black;
   }
-  .responsive-correct {
-    height: 100vh;
-    // border: 1px solid blue;
-  }
 }
 @media (min-width: 928px) {
   .section-navigate.show {
@@ -149,10 +145,6 @@
         }
       }
     }
-  }
-  .responsive-correct {
-    height: 100vh;
-    // border: 1px solid blue;
   }
 }
 
@@ -227,9 +219,5 @@
         }
       }
     }
-  }
-  .responsive-correct {
-    height: 100vh;
-    // border: 1px solid blue;
   }
 }
