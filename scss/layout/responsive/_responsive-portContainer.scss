@@ -1,22 +1,21 @@
 @media (min-width: 723px) {
   .port-container {
     flex-direction: column;
-    height: 85vh;
+    height: 70vh;
     width: 95%;
-
     .my-project,
     .my-passion,
     .what-next {
-      width: 27vw;
-      height: 70vh;
+      width: 28vw;
+      height: 55vh;
       margin-top: 20px;
       margin-left: 10px;
       margin-right: 10px;
+      padding: 10px;
       position: static;
       top: 3.5em;
-      transform: translate(0, 0);
       animation: none;
-      justify-content: space-evenly;
+      justify-content: space-between;
       .header {
         font-weight: 600;
         font-size: 1.5rem;
@@ -42,8 +41,8 @@
     .my-project,
     .my-passion,
     .what-next {
-      margin-left: 20px;
-      margin-right: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
       .info-text {
         font-size: 15px;
       }

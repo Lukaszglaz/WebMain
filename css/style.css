@@ -54,26 +54,6 @@ body {
     opacity: 1;
   }
 }
-@keyframes text {
-  0% {
-    transform: translate(200%, -50%);
-  }
-  3% {
-    transform: translate(200%, -50%);
-  }
-  6% {
-    transform: translate(0, -50%);
-  }
-  30% {
-    transform: translate(0, -50%);
-  }
-  33% {
-    transform: translate(-200%, -50%);
-  }
-  100% {
-    transform: translate(-200%, -50%);
-  }
-}
 .main-section {
   width: 100%;
   height: 7vh;
@@ -1177,35 +1157,14 @@ section .my-experience .info-btn.selected {
     opacity: 1;
   }
 }
-@keyframes text {
-  0% {
-    transform: translate(200%, -50%);
-  }
-  3% {
-    transform: translate(200%, -50%);
-  }
-  6% {
-    transform: translate(0, -50%);
-  }
-  30% {
-    transform: translate(0, -50%);
-  }
-  33% {
-    transform: translate(-200%, -50%);
-  }
-  100% {
-    transform: translate(-200%, -50%);
-  }
-}
 .port-container {
-  width: 90%;
-  height: 85vh;
+  width: 85%;
+  height: 200vh;
   margin: 0 auto;
   margin-top: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
   overflow: hidden;
 }
 .port-container .header {
@@ -1217,20 +1176,16 @@ section .my-experience .info-btn.selected {
 .port-container .my-project,
 .port-container .my-passion,
 .port-container .what-next {
-  width: 80vw;
-  height: 75vh;
-  margin-top: 25px;
+  width: 75vw;
+  height: 60vh;
+  margin-top: 15px;
+  margin-bottom: 35px;
   border-radius: 3.2rem;
   box-shadow: 5px 10px 15px #1f242d;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  position: absolute;
-  top: 50%;
-  left: calc(50% - 40vw);
-  transform: translate(200%, -100%);
-  animation: text 30s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
 }
 .port-container .my-project .info-text,
 .port-container .my-passion .info-text,
@@ -1302,22 +1257,22 @@ section .my-experience .info-btn.selected {
 @media (min-width: 723px) {
   .port-container {
     flex-direction: column;
-    height: 85vh;
+    height: 70vh;
     width: 95%;
   }
   .port-container .my-project,
   .port-container .my-passion,
   .port-container .what-next {
-    width: 27vw;
-    height: 70vh;
+    width: 28vw;
+    height: 55vh;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 10px;
     position: static;
     top: 3.5em;
-    transform: translate(0, 0);
     animation: none;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .port-container .my-project .header,
   .port-container .my-passion .header,
@@ -1343,8 +1298,8 @@ section .my-experience .info-btn.selected {
   .port-container .my-project,
   .port-container .my-passion,
   .port-container .what-next {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .port-container .my-project .info-text,
   .port-container .my-passion .info-text,
