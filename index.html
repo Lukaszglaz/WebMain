@@ -30,11 +30,21 @@
             <div class="navigate-box">
               <nav>
                 <ul>
-                  <li><a class="active-li" href="#">Strona Główna</a></li>
-                  <li><a href="#">O Projekcie</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Kontakt</a></li>
+                  <li>
+                    <a href="#Home" id="section-home">Strona Główna</a>
+                  </li>
+                  <li>
+                    <a href="#About" id="section-project">O Projekcie</a>
+                  </li>
+                  <li>
+                    <a href="#Portfolio" id="section-portfolio">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#Blog" id="section-blog">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#Contact" id="section-contact">Kontakt</a>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -152,47 +162,41 @@
           </div>
         </div>
         <!-- End Skills Container -->
-        <!-- Portfolio Container -->
-        <div class="port-container">
-          <h1>Portfolio</h1>
+        <!-- Project Container -->
+        <div class="port-container" id="projectScroll">
+          <h1>O Projekcie</h1>
 
-          <div class="correct-div">
-            <div class="my-project">
-              <p class="header">Mój Projekt</p>
-              <p class="info-text">
+          <div class="section-container">
+            <div class="col">
+              <p>Mój Projekt</p>
+              <p>
                 Opis strony, wzmianka o zastosowanych technologiach, plus kilka
                 słów o Moim wkładzie. Opowiem wam, jak udało mi się osiągnąć
                 sukces i co wyróżnia moje.
               </p>
-              <div class="image-port">
-                <img src="img/portfolio-oneimg.jpg" class="port-img" />
-              </div>
+              <img src="img/portfolio-oneimg.jpg" />
             </div>
-            <div class="my-passion">
-              <p class="header">Moja Pasja</p>
-              <p class="info-text">
+            <div class="col">
+              <p>Moja Pasja</p>
+              <p>
                 Podzielę się z wami kilkoma projektami, które absorbowały mnie
                 na wiele godzin. Chciałbym opowiedzieć o ich istocie oraz o tym,
                 co udało mi się w nich osiągnąć.
               </p>
-              <div class="image-port">
-                <img src="img/portfolio-twoimg.jpg" class="port-img" />
-              </div>
+              <img src="img/portfolio-twoimg.jpg" />
             </div>
-            <div class="what-next">
-              <p class="header">Co Dalej?</p>
-              <p class="info-text">
+            <div class="col">
+              <p>Co dalej?</p>
+              <p>
                 Podzielę się swoimi planami na przyszłość i wskażę, jakie
                 projekty właśnie tworzę lub planuje stworzyć. Poinformuje, jakie
                 technologie planuje poznać.
               </p>
-              <div class="image-port">
-                <img src="img/portfolio-threeimg.jpg" class="port-img" />
-              </div>
+              <img src="img/portfolio-threeimg.jpg" />
             </div>
           </div>
         </div>
-        <!-- End Portfolio Container -->
+        <!-- End Project Container -->
       </section>
     </div>
     <!-- Navbar animated -->

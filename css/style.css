@@ -128,7 +128,7 @@ body {
   height: 6vh;
   text-align: center;
 }
-.main-section .section-navigate .navigate-box li .active-li {
+.main-section .section-navigate .navigate-box li .active {
   color: #0ef;
 }
 .main-section .section-navigate .navigate-box .mouseover-animate,
@@ -1158,183 +1158,124 @@ section .my-experience .info-btn.selected {
   }
 }
 .port-container {
-  width: 85%;
-  height: 200vh;
-  margin: 0 auto;
-  margin-top: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-}
-.port-container .header {
-  color: #fff;
-  font-weight: 600;
-  font-size: 1.4rem;
-  line-height: 35px;
-}
-.port-container .my-project,
-.port-container .my-passion,
-.port-container .what-next {
-  width: 75vw;
-  height: 60vh;
-  margin-top: 15px;
-  margin-bottom: 35px;
-  border-radius: 3.2rem;
-  box-shadow: 5px 10px 15px #1f242d;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.port-container .my-project .info-text,
-.port-container .my-passion .info-text,
-.port-container .what-next .info-text {
-  color: #fff;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.port-container .my-project .image-port,
-.port-container .my-passion .image-port,
-.port-container .what-next .image-port {
-  width: 85%;
-  height: 250px;
-  border-radius: 1.6rem 1.6rem 3.2rem 3.2rem;
-  overflow: hidden;
-}
-.port-container .my-project .image-port .port-img,
-.port-container .my-passion .image-port .port-img,
-.port-container .what-next .image-port .port-img {
-  object-fit: cover;
-  width: 100%;
-  height: 250px;
-  border-radius: 1.6rem;
-}
-.port-container .my-project h3,
-.port-container .my-passion h3,
-.port-container .what-next h3 {
-  color: #fff;
-  font-size: 1.3rem;
-  margin-bottom: 0px;
-}
-.port-container .my-project p,
-.port-container .my-passion p,
-.port-container .what-next p {
-  width: 85%;
-  text-align: center;
-  color: #fff;
-}
-.port-container .my-passion {
-  animation-delay: 10s;
-}
-.port-container .what-next {
-  animation-delay: 20s;
+  margin-top: 2rem;
 }
 .port-container h1 {
   color: #fff;
-  line-height: 7vh;
-  font-size: 1.9rem;
-}
-.port-container .info-btn {
-  cursor: pointer;
-  padding: 10px 42px;
-  border-radius: 16px;
   font-weight: 600;
-  font-size: 15px;
-  color: #fff;
-  transition: 0.3s ease-in-out;
-  box-shadow: 1px 3px 7px #000000;
+  font-size: 1.5rem;
+  line-height: 35px;
+  margin-bottom: 15px;
+  text-align: center;
 }
-.port-container .info-btn.selected {
-  border: none;
-  background-color: #1f242d;
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 75vw;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-container .col {
+  box-sizing: border-box;
+  flex-basis: 25%;
+  background-color: #323946;
+  box-shadow: 5px 10px 15px #1f242d;
+  border-radius: 2rem;
+  padding: 20px;
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  transition: 0.3s ease-in-out;
+}
+.section-container .col:hover {
+  box-shadow: 5px 10px 25px #000000;
+}
+.section-container .col img {
+  width: 80%;
+  align-self: center;
+  border-radius: 1.6rem;
+}
+.section-container .col p {
+  margin: 20px 0 32px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+.section-container .col p:nth-child(1) {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 35px;
+  margin-bottom: 15px;
 }
 
 @media (min-width: 723px) {
-  .port-container {
-    flex-direction: column;
-    height: 70vh;
-    width: 95%;
+  .port-container h1 {
+    font-size: 1.6rem;
   }
-  .port-container .my-project,
-  .port-container .my-passion,
-  .port-container .what-next {
-    width: 28vw;
-    height: 55vh;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px;
-    position: static;
-    top: 3.5em;
-    animation: none;
-    justify-content: space-between;
+  .section-container {
+    flex-direction: row;
+    width: 90vw;
   }
-  .port-container .my-project .header,
-  .port-container .my-passion .header,
-  .port-container .what-next .header {
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 35px;
+  .section-container .col {
+    flex-basis: 30%;
   }
-  .port-container .my-project .image-port,
-  .port-container .my-passion .image-port,
-  .port-container .what-next .image-port {
-    height: 180px;
+  .section-container .col img {
+    width: 100%;
+    align-self: center;
+    border-radius: 1.6rem;
   }
-  .port-container .info-btn {
-    padding: 10px 35px;
-    font-size: 15px;
+  .section-container .col p {
+    margin: 20px 0 32px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
   }
-  .port-container .correct-div {
-    display: flex;
-  }
-}
-@media (min-width: 873px) {
-  .port-container .my-project,
-  .port-container .my-passion,
-  .port-container .what-next {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .port-container .my-project .info-text,
-  .port-container .my-passion .info-text,
-  .port-container .what-next .info-text {
-    font-size: 15px;
-  }
-  .port-container .my-project .header,
-  .port-container .my-passion .header,
-  .port-container .what-next .header {
+  .section-container .col p:nth-child(1) {
+    color: #fff;
     font-weight: 600;
     font-size: 1.4rem;
     line-height: 35px;
+    margin-bottom: 15px;
   }
-  .port-container .info-btn {
-    padding: 10px 40px;
-    font-size: 15px;
+}
+@media (min-width: 873px) {
+  .port-container h1 {
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 1024px) {
-  .port-container .my-project,
-  .port-container .my-passion,
-  .port-container .what-next {
-    width: 25vw;
+  .port-container h1 {
+    font-size: 1.7rem;
   }
-  .port-container .my-project .info-text,
-  .port-container .my-passion .info-text,
-  .port-container .what-next .info-text {
-    font-size: 16px;
+  .section-container {
+    width: 70vw;
   }
-  .port-container .my-project .header,
-  .port-container .my-passion .header,
-  .port-container .what-next .header {
-    font-size: 1.6rem;
+  .section-container .col {
+    flex-basis: 30%;
   }
-  .port-container .info-btn {
+  .section-container .col img {
+    width: 100%;
+    align-self: center;
+    border-radius: 1.6rem;
+  }
+  .section-container .col p {
+    margin: 20px 0 32px;
+    color: #fff;
     font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+  }
+  .section-container .col p:nth-child(1) {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 35px;
+    margin-bottom: 15px;
   }
 }
