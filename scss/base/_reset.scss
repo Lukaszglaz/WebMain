@@ -10,7 +10,29 @@ html {
 
 body {
   background-color: $second-bg-color;
+  // background: linear-gradient(
+  //   -45deg,
+  //   #444444,
+  //   #333333,
+  //   #293d4b,
+  //   #1f3f4d,
+  //   #151b54
+  // );
+  // background-size: 400% 400%;
+  // animation: gradient 15s ease infinite;
   overflow-x: hidden;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 #wrapper {

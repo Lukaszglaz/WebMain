@@ -13,6 +13,17 @@ body {
   overflow-x: hidden;
 }
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 #wrapper {
   position: relative;
   -webkit-tap-highlight-color: transparent;
@@ -1180,7 +1191,6 @@ section .my-experience .info-btn.selected {
 .section-container .col {
   box-sizing: border-box;
   flex-basis: 25%;
-  background-color: #323946;
   box-shadow: 5px 10px 15px #1f242d;
   border-radius: 2rem;
   padding: 20px;
