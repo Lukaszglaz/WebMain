@@ -22,22 +22,6 @@ body {
   display: none;
 }
 
-@keyframes showMenu {
-  0% {
-    left: -110%;
-  }
-  100% {
-    left: 0;
-  }
-}
-@keyframes hideMenu {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -110%;
-  }
-}
 @keyframes fadeOut {
   0% {
     opacity: 1;
@@ -72,7 +56,7 @@ body {
   box-shadow: 5px 10px 15px #717b8d;
   position: fixed;
   top: 0;
-  left: -110%;
+  left: -100%;
 }
 .main-section .section-navigate .text-box {
   width: 100%;
@@ -198,12 +182,8 @@ body {
   transform: translate(0);
 }
 
-.section-navigate.show {
-  animation: showMenu 0.5s ease 0s 1 forwards;
-}
-
-.section-navigate.hide {
-  animation: hideMenu 0.5s ease 0s 1 forwards;
+#animate-menu {
+  transition: left 0.5s ease 0s;
 }
 
 @media (min-width: 723px) {
@@ -1125,22 +1105,6 @@ section .my-experience .info-btn.selected {
   section .my-experience .items-box .second-block {
     display: flex;
     margin-top: 2rem;
-  }
-}
-@keyframes showMenu {
-  0% {
-    left: -110%;
-  }
-  100% {
-    left: 0;
-  }
-}
-@keyframes hideMenu {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -110%;
   }
 }
 @keyframes fadeOut {
