@@ -1,15 +1,15 @@
 // Scroll Element List
-const clickMainScroll = document.getElementById('section-home');
-const clickProjectScroll = document.getElementById('section-project');
-const clickPortfolioScroll = document.getElementById('section-portfolio');
-const clickBlogScroll = document.getElementById('section-blog');
-const clickContactScroll = document.getElementById('section-contact');
 
-const scrollToProject = document.getElementById('projectScroll');
-const scrollToPortfolio = document.getElementById('');
-const scrollToBlog = document.getElementById('');
-const scrollToContact = document.getElementById('');
+// Element Click
+const clickMainScroll = document.getElementById('clickHome');
+const clickProjectScroll = document.getElementById('clickProject');
+// End Element Click
 
+// Element Click To Scroll
+const scrollToProject = document.getElementById('section-project');
+// End Element Click To Scroll
+
+// Animation Scroll
 clickMainScroll.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
@@ -17,13 +17,14 @@ clickMainScroll.addEventListener('click', () => {
 clickProjectScroll.addEventListener('click', () => {
   scrollToProject.scrollIntoView({ behavior: 'smooth' });
 });
+// End Animation Scroll
 // End Scroll Element lIST
 
 // Active Element List
 const options = {
   root: null,
   rootMargin: '0px',
-  threshold: 0.5,
+  threshold: 0.4,
 };
 
 const observer = new IntersectionObserver((entries) => {
@@ -38,13 +39,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, options);
 
-const elementIds = [
-  'section-home',
-  'section-project',
-  'section-portfolio',
-  'section-blog',
-  'section-contact',
-];
+const elementIds = ['section-project', 'section-home'];
 
 elementIds.forEach((elementId) => {
   const element = document.getElementById(elementId);
@@ -54,11 +49,13 @@ elementIds.forEach((elementId) => {
 });
 
 function handleVisibleElement(elementId) {
-  elementId.classList.add('active');
+  const currentElement = document.getElementsByClassName(elementId)[0];
+  currentElement.classList.add('active');
 }
 
 function handleInvisibleElement(elementId) {
-  elementId.classList.remove('active');
+  const currentElement = document.getElementsByClassName(elementId)[0];
+  currentElement.classList.remove('active');
 }
 
 // End Active Element List

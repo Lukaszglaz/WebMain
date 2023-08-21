@@ -468,6 +468,7 @@ body {
   border-radius: 2rem;
   box-shadow: 5px 10px 15px #1f242d;
   transition: 0.3s ease-in-out;
+  background-color: #323946;
 }
 .top-container .ig-box:hover {
   box-shadow: 5px 10px 25px #000000;
@@ -894,6 +895,7 @@ section .my-experience .items-box .item-container .item {
   border-radius: 3.2rem;
   box-shadow: 5px 10px 15px #1f242d;
   transition: 0.3s ease-in-out;
+  background-color: #323946;
 }
 section .my-experience .items-box .item-container .item:hover {
   box-shadow: 5px 10px 25px #000000;
@@ -1191,6 +1193,7 @@ section .my-experience .info-btn.selected {
 .section-container .col {
   box-sizing: border-box;
   flex-basis: 25%;
+  background-color: #323946;
   box-shadow: 5px 10px 15px #1f242d;
   border-radius: 2rem;
   padding: 20px;
