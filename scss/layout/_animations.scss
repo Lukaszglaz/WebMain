@@ -1,21 +1,21 @@
-// @keyframes showMenu {
-//   0% {
-//     left: -110%;
-//   }
+@keyframes showMenu {
+  0% {
+    left: -110%;
+  }
 
-//   100% {
-//     left: 0;
-//   }
-// }
-// @keyframes hideMenu {
-//   0% {
-//     left: 0;
-//   }
+  100% {
+    left: 0;
+  }
+}
+@keyframes hideMenu {
+  0% {
+    left: 0;
+  }
 
-//   100% {
-//     left: -110%;
-//   }
-// }
+  100% {
+    left: -110%;
+  }
+}
 
 @keyframes fadeOut {
   0% {

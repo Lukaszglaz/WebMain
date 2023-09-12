@@ -63,23 +63,12 @@ liElements.forEach((li) => {
 });
 
 window.addEventListener('scroll', function () {
-  let mainSection = document.querySelector('.main-section');
-  let scrollHeight = window.innerHeight;
+  var mainSection = document.querySelector('.main-section');
+  var scrollHeight = window.innerHeight;
 
   if (window.pageYOffset >= scrollHeight) {
     mainSection.classList.add('fixed');
   } else {
     mainSection.classList.remove('fixed');
   }
-});
-
-let isOpen = false;
-
-clickBox.addEventListener('click', function () {
-  if (isOpen) {
-    navigateSec.style.left = '-100%'; // Schowaj menu
-  } else {
-    navigateSec.style.left = '0'; // Pokaż menu
-  }
-  isOpen = !isOpen; // Zmień stan otwarcia/zamknięcia
 });
